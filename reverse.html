@@ -1,0 +1,22 @@
+<!--Write a program that takes an integer as input and returns an integer with reversed digit ordering.-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+        function reverse() {
+            let number=prompt(parseInt("enter a number"));
+            let reverse_number=parseInt(number.toString().split('').reverse().join('')) *Math.sign(number);
+            document.write(reverse_number);
+        }    
+        
+    </script>
+</head>
+<body>
+    <form>
+        <input type="button" value="reverse" onclick="reverse()">
+    </form>
+</body>
+</html>

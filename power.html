@@ -1,0 +1,25 @@
+<!--Write a program that takes an integer as input and returns true if the input is a power of two. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Power</title>
+    <script type="text/javascript">
+        function power(){
+            var number=prompt(parseInt("enter an interger number"));
+            if  (number%2===0){
+                document.write("true");
+            }
+            else {
+                document.write("false");
+            }
+        }
+    </script>
+</head>
+<body>
+    <form>
+        <input type="button" value="power" onclick="power()">
+    </form>
+</body>
+</html>

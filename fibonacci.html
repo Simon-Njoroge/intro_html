@@ -1,0 +1,29 @@
+<!--Write a program to generate the Fibonacci sequence up to 100.-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fibonacci sequence</title>
+    <script type="text/javascript">
+        function fibonacci(){
+        let a1=0, a2=1,next_term;
+const terms=100;
+for (let i=1; i<=100; i++)
+{
+    document.write(a1+'\n\n\n')
+    next_term= a1+a2;
+    a1=a2;
+    a2=next_term;
+    
+}
+        }
+    </script>
+</head>
+<body>
+    <form>
+        <input type="button" value="fibonacci" onclick="fibonacci()">
+    </form>
+</body>
+</html>
